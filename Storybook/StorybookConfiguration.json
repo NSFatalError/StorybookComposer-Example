@@ -1,0 +1,9 @@
+{
+    "excludedRemotePackageDependencies": [],
+    "excludedProjectSources": [],
+    "additionalLocalSources": [],
+    "additionalImports": [
+        "DesignSystem"
+    ]
+}
+

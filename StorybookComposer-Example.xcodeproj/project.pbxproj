@@ -7,18 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E2DA37C2ABA218C007B9F2D /* StorybookComposer_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA37B2ABA218C007B9F2D /* StorybookComposer_ExampleApp.swift */; };
+		8E2DA37C2ABA218C007B9F2D /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA37B2ABA218C007B9F2D /* MyApp.swift */; };
 		8E2DA37E2ABA218C007B9F2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA37D2ABA218C007B9F2D /* ContentView.swift */; };
 		8E2DA3802ABA218D007B9F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA37F2ABA218D007B9F2D /* Assets.xcassets */; };
-		8E2DA3832ABA218D007B9F2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA3822ABA218D007B9F2D /* Preview Assets.xcassets */; };
+		8E2DA3922ABA23D2007B9F2D /* StorybookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA3912ABA23D2007B9F2D /* StorybookApp.swift */; };
+		8E2DA3962ABA23D3007B9F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA3952ABA23D3007B9F2D /* Assets.xcassets */; };
+		8E3381F12ABA24AA0019B16A /* StorybookComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3381F02ABA24AA0019B16A /* StorybookComposer */; };
+		8E3381FA2ABA24FB0019B16A /* DesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3381F92ABA24FB0019B16A /* DesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3381FF2ABA250A0019B16A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3381FE2ABA250A0019B16A /* CustomButton.swift */; };
+		8E3382022ABA254B0019B16A /* StorybookComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3382012ABA254B0019B16A /* StorybookComposer */; };
+		8E3382052ABA25F20019B16A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3381F72ABA24FB0019B16A /* DesignSystem.framework */; };
+		8E3382062ABA25F20019B16A /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3381F72ABA24FB0019B16A /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E33820A2ABA25FF0019B16A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3381F72ABA24FB0019B16A /* DesignSystem.framework */; };
+		8E33820B2ABA25FF0019B16A /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3381F72ABA24FB0019B16A /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E3382102ABA26790019B16A /* StorybookConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E33820F2ABA26790019B16A /* StorybookConfiguration.json */; };
+		8E3382122ABA26C00019B16A /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3382112ABA26C00019B16A /* CustomHeader.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E3382072ABA25F20019B16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2DA3702ABA218C007B9F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3381F62ABA24FB0019B16A;
+			remoteInfo = DesignSystem;
+		};
+		8E33820C2ABA25FF0019B16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2DA3702ABA218C007B9F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3381F62ABA24FB0019B16A;
+			remoteInfo = DesignSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E3382092ABA25F20019B16A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E3382062ABA25F20019B16A /* DesignSystem.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E33820E2ABA25FF0019B16A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E33820B2ABA25FF0019B16A /* DesignSystem.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8E2DA3782ABA218C007B9F2D /* StorybookComposer-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StorybookComposer-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2DA37B2ABA218C007B9F2D /* StorybookComposer_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookComposer_ExampleApp.swift; sourceTree = "<group>"; };
+		8E2DA3782ABA218C007B9F2D /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2DA37B2ABA218C007B9F2D /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		8E2DA37D2ABA218C007B9F2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E2DA37F2ABA218D007B9F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E2DA3822ABA218D007B9F2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		8E2DA38F2ABA23D2007B9F2D /* Storybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2DA3912ABA23D2007B9F2D /* StorybookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookApp.swift; sourceTree = "<group>"; };
+		8E2DA3952ABA23D3007B9F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3381F72ABA24FB0019B16A /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3381F92ABA24FB0019B16A /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
+		8E3381FE2ABA250A0019B16A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8E33820F2ABA26790019B16A /* StorybookConfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StorybookConfiguration.json; sourceTree = "<group>"; };
+		8E3382112ABA26C00019B16A /* CustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		8E3382132ABA28730019B16A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E3382142ABA28880019B16A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +89,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E33820A2ABA25FF0019B16A /* DesignSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DA38C2ABA23D2007B9F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3381F12ABA24AA0019B16A /* StorybookComposer in Frameworks */,
+				8E3382052ABA25F20019B16A /* DesignSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3381F42ABA24FB0019B16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3382022ABA254B0019B16A /* StorybookComposer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,57 +116,148 @@
 		8E2DA36F2ABA218C007B9F2D = {
 			isa = PBXGroup;
 			children = (
-				8E2DA37A2ABA218C007B9F2D /* StorybookComposer-Example */,
+				8E3382142ABA28880019B16A /* LICENSE */,
+				8E3382132ABA28730019B16A /* README.md */,
+				8E2DA3892ABA21B6007B9F2D /* Configuration */,
+				8E2DA37A2ABA218C007B9F2D /* MyApp */,
+				8E2DA3902ABA23D2007B9F2D /* Storybook */,
+				8E3381F82ABA24FB0019B16A /* DesignSystem */,
 				8E2DA3792ABA218C007B9F2D /* Products */,
+				8E3382002ABA254B0019B16A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8E2DA3792ABA218C007B9F2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E2DA3782ABA218C007B9F2D /* StorybookComposer-Example.app */,
+				8E2DA3782ABA218C007B9F2D /* MyApp.app */,
+				8E2DA38F2ABA23D2007B9F2D /* Storybook.app */,
+				8E3381F72ABA24FB0019B16A /* DesignSystem.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E2DA37A2ABA218C007B9F2D /* StorybookComposer-Example */ = {
+		8E2DA37A2ABA218C007B9F2D /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				8E2DA37B2ABA218C007B9F2D /* StorybookComposer_ExampleApp.swift */,
+				8E2DA37B2ABA218C007B9F2D /* MyApp.swift */,
 				8E2DA37D2ABA218C007B9F2D /* ContentView.swift */,
 				8E2DA37F2ABA218D007B9F2D /* Assets.xcassets */,
-				8E2DA3812ABA218D007B9F2D /* Preview Content */,
 			);
-			path = "StorybookComposer-Example";
+			path = MyApp;
 			sourceTree = "<group>";
 		};
-		8E2DA3812ABA218D007B9F2D /* Preview Content */ = {
+		8E2DA3892ABA21B6007B9F2D /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				8E2DA3822ABA218D007B9F2D /* Preview Assets.xcassets */,
+				8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */,
 			);
-			path = "Preview Content";
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8E2DA3902ABA23D2007B9F2D /* Storybook */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DA3912ABA23D2007B9F2D /* StorybookApp.swift */,
+				8E33820F2ABA26790019B16A /* StorybookConfiguration.json */,
+				8E2DA3952ABA23D3007B9F2D /* Assets.xcassets */,
+			);
+			path = Storybook;
+			sourceTree = "<group>";
+		};
+		8E3381F82ABA24FB0019B16A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				8E3381F92ABA24FB0019B16A /* DesignSystem.h */,
+				8E3381FE2ABA250A0019B16A /* CustomButton.swift */,
+				8E3382112ABA26C00019B16A /* CustomHeader.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8E3382002ABA254B0019B16A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		8E3381F22ABA24FB0019B16A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3381FA2ABA24FB0019B16A /* DesignSystem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		8E2DA3772ABA218C007B9F2D /* StorybookComposer-Example */ = {
+		8E2DA3772ABA218C007B9F2D /* MyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E2DA3862ABA218D007B9F2D /* Build configuration list for PBXNativeTarget "StorybookComposer-Example" */;
+			buildConfigurationList = 8E2DA3862ABA218D007B9F2D /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
 				8E2DA3742ABA218C007B9F2D /* Sources */,
 				8E2DA3752ABA218C007B9F2D /* Frameworks */,
 				8E2DA3762ABA218C007B9F2D /* Resources */,
+				8E33820E2ABA25FF0019B16A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E33820D2ABA25FF0019B16A /* PBXTargetDependency */,
+			);
+			name = MyApp;
+			productName = "StorybookComposer-Example";
+			productReference = 8E2DA3782ABA218C007B9F2D /* MyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E2DA38E2ABA23D2007B9F2D /* Storybook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2DA39A2ABA23D3007B9F2D /* Build configuration list for PBXNativeTarget "Storybook" */;
+			buildPhases = (
+				8E2DA38B2ABA23D2007B9F2D /* Sources */,
+				8E2DA38C2ABA23D2007B9F2D /* Frameworks */,
+				8E2DA38D2ABA23D2007B9F2D /* Resources */,
+				8E3382092ABA25F20019B16A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3382042ABA25530019B16A /* PBXTargetDependency */,
+				8E3382082ABA25F20019B16A /* PBXTargetDependency */,
+			);
+			name = Storybook;
+			packageProductDependencies = (
+				8E3381F02ABA24AA0019B16A /* StorybookComposer */,
+			);
+			productName = Storybook;
+			productReference = 8E2DA38F2ABA23D2007B9F2D /* Storybook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3381F62ABA24FB0019B16A /* DesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3381FB2ABA24FB0019B16A /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildPhases = (
+				8E3381F22ABA24FB0019B16A /* Headers */,
+				8E3381F32ABA24FB0019B16A /* Sources */,
+				8E3381F42ABA24FB0019B16A /* Frameworks */,
+				8E3381F52ABA24FB0019B16A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "StorybookComposer-Example";
-			productName = "StorybookComposer-Example";
-			productReference = 8E2DA3782ABA218C007B9F2D /* StorybookComposer-Example.app */;
-			productType = "com.apple.product-type.application";
+			name = DesignSystem;
+			packageProductDependencies = (
+				8E3382012ABA254B0019B16A /* StorybookComposer */,
+			);
+			productName = DesignSystem;
+			productReference = 8E3381F72ABA24FB0019B16A /* DesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +272,13 @@
 					8E2DA3772ABA218C007B9F2D = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					8E2DA38E2ABA23D2007B9F2D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8E3381F62ABA24FB0019B16A = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
 				};
 			};
 			buildConfigurationList = 8E2DA3732ABA218C007B9F2D /* Build configuration list for PBXProject "StorybookComposer-Example" */;
@@ -111,11 +290,16 @@
 				Base,
 			);
 			mainGroup = 8E2DA36F2ABA218C007B9F2D;
+			packageReferences = (
+				8E3381EF2ABA24AA0019B16A /* XCRemoteSwiftPackageReference "StorybookComposer" */,
+			);
 			productRefGroup = 8E2DA3792ABA218C007B9F2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E2DA3772ABA218C007B9F2D /* StorybookComposer-Example */,
+				8E2DA3772ABA218C007B9F2D /* MyApp */,
+				8E2DA38E2ABA23D2007B9F2D /* Storybook */,
+				8E3381F62ABA24FB0019B16A /* DesignSystem */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +309,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2DA3832ABA218D007B9F2D /* Preview Assets.xcassets in Resources */,
 				8E2DA3802ABA218D007B9F2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DA38D2ABA23D2007B9F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DA3962ABA23D3007B9F2D /* Assets.xcassets in Resources */,
+				8E3382102ABA26790019B16A /* StorybookConfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3381F52ABA24FB0019B16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,15 +337,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2DA37E2ABA218C007B9F2D /* ContentView.swift in Sources */,
-				8E2DA37C2ABA218C007B9F2D /* StorybookComposer_ExampleApp.swift in Sources */,
+				8E2DA37C2ABA218C007B9F2D /* MyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DA38B2ABA23D2007B9F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DA3922ABA23D2007B9F2D /* StorybookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3381F32ABA24FB0019B16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3381FF2ABA250A0019B16A /* CustomButton.swift in Sources */,
+				8E3382122ABA26C00019B16A /* CustomHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E3382042ABA25530019B16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8E3382032ABA25530019B16A /* StorybookComposerPlugin */;
+		};
+		8E3382082ABA25F20019B16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3381F62ABA24FB0019B16A /* DesignSystem */;
+			targetProxy = 8E3382072ABA25F20019B16A /* PBXContainerItemProxy */;
+		};
+		8E33820D2ABA25FF0019B16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3381F62ABA24FB0019B16A /* DesignSystem */;
+			targetProxy = 8E33820C2ABA25FF0019B16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		8E2DA3842ABA218D007B9F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +444,7 @@
 		};
 		8E2DA3852ABA218D007B9F2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -266,12 +501,15 @@
 		};
 		8E2DA3872ABA218D007B9F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StorybookComposer-Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,8 +522,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.Main${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,12 +533,15 @@
 		};
 		8E2DA3882ABA218D007B9F2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2DA38A2ABA21FD007B9F2D /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StorybookComposer-Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,11 +554,135 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.Main${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E2DA39B2ABA23D3007B9F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.Storybook${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2DA39C2ABA23D3007B9F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.Storybook${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E3381FC2ABA24FB0019B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.DesignSystem${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E3381FD2ABA24FB0019B16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kamilstrzelecki.StorybookComposer.DesignSystem${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -332,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E2DA3862ABA218D007B9F2D /* Build configuration list for PBXNativeTarget "StorybookComposer-Example" */ = {
+		8E2DA3862ABA218D007B9F2D /* Build configuration list for PBXNativeTarget "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E2DA3872ABA218D007B9F2D /* Debug */,
@@ -341,7 +707,54 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8E2DA39A2ABA23D3007B9F2D /* Build configuration list for PBXNativeTarget "Storybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2DA39B2ABA23D3007B9F2D /* Debug */,
+				8E2DA39C2ABA23D3007B9F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3381FB2ABA24FB0019B16A /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3381FC2ABA24FB0019B16A /* Debug */,
+				8E3381FD2ABA24FB0019B16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E3381EF2ABA24AA0019B16A /* XCRemoteSwiftPackageReference "StorybookComposer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NSFatalError/StorybookComposer";
+			requirement = {
+				kind = revision;
+				revision = 5c421cf47abbcc3ae3fa9132944037126741df09;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E3381F02ABA24AA0019B16A /* StorybookComposer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E3381EF2ABA24AA0019B16A /* XCRemoteSwiftPackageReference "StorybookComposer" */;
+			productName = StorybookComposer;
+		};
+		8E3382012ABA254B0019B16A /* StorybookComposer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E3381EF2ABA24AA0019B16A /* XCRemoteSwiftPackageReference "StorybookComposer" */;
+			productName = StorybookComposer;
+		};
+		8E3382032ABA25530019B16A /* StorybookComposerPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E3381EF2ABA24AA0019B16A /* XCRemoteSwiftPackageReference "StorybookComposer" */;
+			productName = "plugin:StorybookComposerPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E2DA3702ABA218C007B9F2D /* Project object */;
 }

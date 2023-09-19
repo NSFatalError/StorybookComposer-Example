@@ -1,5 +1,5 @@
 //
-//  StorybookComposer_ExampleApp.swift
+//  MyApp.swift
 //  StorybookComposer-Example
 //
 //  Created by Kamil Strzelecki on 19/09/2023.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct StorybookComposer_ExampleApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
